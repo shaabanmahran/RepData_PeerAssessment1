@@ -1,0 +1,5 @@
+setwd("C:\\Users\\shaaban\\Google Drive\\MyFolder\\Coursera\\Reproducible Research\\RepData_PeerAssessment1")
+data <- read.csv("activity.csv")
+head(data)
+mean_steps <- mean(data$steps, na.rm = TRUE)
+median_steps <- midean(data$steps, na.rm = TRUE)
